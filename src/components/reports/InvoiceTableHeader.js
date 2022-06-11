@@ -11,7 +11,7 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         height: 24,
         textAlign: 'center',
-        fontWeight: 'heavy',
+        fontFamily: 'Helvetica-Bold',
         flexGrow: 1,
     },
     sn:{

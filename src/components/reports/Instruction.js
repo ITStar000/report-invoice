@@ -10,8 +10,8 @@ const styles = StyleSheet.create({
       marginTop: 14,
     },
     account_title: {
-        
-      
+      paddingTop : 2,
+      fontFamily: 'Helvetica-Bold',
       backgroundColor  :'#EDEDED'
   }
   });

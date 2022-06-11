@@ -4,7 +4,7 @@ import BillTo from './BillTo'
 import InvoiceNo from './InvoiceNo'
 import InvoiceItemsTable from './InvoiceItemsTable'
 import InvoiceThankYouMsg from './InvoiceThankYouMsg'
-import logo from '../../../src/logo.png'
+import logo from '../../../src/logo512.png'
 import Currency from './Currency';
 import Payment from './Payment';
 import Detail1 from './Detail1';
@@ -15,24 +15,24 @@ import Contact from './Contact';
 
 const styles = StyleSheet.create({
     page: {
-        fontFamily: 'Times-Roman',
+        fontFamily: 'Helvetica',
         fontSize: 11,
         paddingTop: 110,
         paddingLeft:22,
         paddingRight:22,
-        paddingBottom: 118.5,
+        paddingBottom: 113,
         lineHeight: 1.5,
         flexDirection: 'column',
     }, 
     logo: {
         top:15,
-        width: 165,
+        width: 120,
         height: 74,
     },
     header: {
         flexDirection: 'row',
         position: 'absolute',
-        left:20
+        left:30
     },
     bill_no :{
         flexDirection : 'row',
@@ -70,6 +70,9 @@ const styles = StyleSheet.create({
         backgroundColor: '#A81FA8',
     },
     title:{
+        
+        
+      fontFamily: 'Helvetica-Bold',
         paddingLeft: 5,
         paddingRight:5,
         top:48,
@@ -92,17 +95,21 @@ const styles = StyleSheet.create({
     },
     account_title: {
         
+        fontFamily: 'Helvetica-Bold',
         marginLeft:29,
         marginRight: 29,
         marginTop: 14,
+        paddingTop: 2,
+        alignContent: 'center',
         backgroundColor  :'#EDEDED'
     },
     sign:{
+        position: 'absolute',
         fontSize:9,
         flexDirection : 'row',
         marginLeft:60,
         marginRight: 60,
-        marginTop: 50,
+        bottom: 120,
         justifyContent: 'flex-start'
     },
     underLine: {
@@ -165,11 +172,11 @@ const styles = StyleSheet.create({
                         <Text style={styles.underLine}> Prepared By :      </Text>
                         <Text style={[styles.underLine, {marginLeft: 200}]}> Approved By :      </Text>
                     </View>
-                    <Text style={{marginLeft:60, fontSize:9}}>Fawad Ahmed</Text>
+                    <Text style={{position:'absolute',bottom: 105,marginLeft:60, fontSize:9}}>Fawad Ahmed</Text>
                     
                     <View style={styles.footer} fixed>
                         <View style={styles.hint}>
-                            <Text >This is a computer generated document and electronically approved.</Text>
+                            <Text style={{fontFamily:"Helvetica-Oblique"}}>This is a computer generated document and electronically approved.</Text>
                             <Text style={[styles.underLine]} 
                             render={({ pageNumber, totalPages }) => (
                                 `Page ${pageNumber} of ${totalPages}`

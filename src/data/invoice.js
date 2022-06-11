@@ -29,184 +29,103 @@ const invoice = {
     ],
   "tableData":{
     totalString: "Thirty Two Thousand Nine Hundred Forty only",
-    currency: "USD",
+    currency: "EUR",
     total: 32940.0,
     rows: [
-        {
-            name: "Ferrous Gluconate EP Powder",
-            description: "In very fine Powder form",
-            hashCode: "2918.16.0000",
-            qty: 5400,
-            uom: "KG",
-            unitPrice: 6.1,
-            totalAmount: 32940,
-            sn: 1,
-        },
-    //     {
-    //       name: "Ferrous Gluconate EP Powder",
-    //       description: "In very fine Powder form",
-    //       hashCode: "2918.16.0000",
-    //       qty: 5400,
-    //       uom: "KG",
-    //       unitPrice: 6.1,
-    //       totalAmount: 32940,
-    //       sn: 2,
-    //   },
-    //   {
-    //     name: "Ferrous Gluconate EP Powder",
-    //     description: "In very fine Powder form",
-    //     hashCode: "2918.16.0000",
-    //     qty: 5400,
-    //     uom: "KG",
-    //     unitPrice: 6.1,
-    //     totalAmount: 32940,
-    //     sn: 3,
-    // },
-
+      {
+        name: "Ferrous Gluconate EP Powder",
+        description: "In very fine Powder form",
+        hashCode: "2918.16.0000",
+        qty: 5400,
+        uom: "KG",
+        unitPrice: 6.1,
+        totalAmount: 32940,
+        sn: 1,
+    },
+//     {
+//       name: "Ferrous Gluconate EP Powder",
+//       description: "In very fine Powder form",
+//       hashCode: "2918.16.0000",
+//       qty: 3800,
+//       uom: "KG",
+//       unitPrice: 3,
+//       sn: 2,
+//   },{
+//     name: "Ferrous Gluconate EP Powder",
+//     description: "In very fine Powder form",
+//     hashCode: "2918.16.0000",
+//     qty: 3800,
+//     uom: "KG",
+//     unitPrice: 3,
+//     sn: 2,
+// },{
+//   name: "Ferrous Gluconate EP Powder",
+//   description: "In very fine Powder form",
+//   hashCode: "2918.16.0000",
+//   qty: 3800,
+//   uom: "KG",
+//   unitPrice: 3,
+//   sn: 2,
+// },{
+//   name: "Ferrous Gluconate EP Powder",
+//   description: "In very fine Powder form",
+//   hashCode: "2918.16.0000",
+//   qty: 3800,
+//   uom: "KG",
+//   unitPrice: 3,
+//   sn: 2,
+// },{
+//   name: "Ferrous Gluconate EP Powder",
+//   description: "In very fine Powder form",
+//   hashCode: "2918.16.0000",
+//   qty: 3800,
+//   uom: "KG",
+//   unitPrice: 3,
+//   sn: 2,
+// },{
+//   name: "Ferrous Gluconate EP Powder",
+//   description: "In very fine Powder form",
+//   hashCode: "2918.16.0000",
+//   qty: 3800,
+//   uom: "KG",
+//   unitPrice: 3,
+//   sn: 2,
+// },{
+//   name: "Ferrous Gluconate EP Powder",
+//   description: "In very fine Powder form",
+//   hashCode: "2918.16.0000",
+//   qty: 3800,
+//   uom: "KG",
+//   unitPrice: 3,
+//   sn: 2,
+// },{
+//   name: "Ferrous Gluconate EP Powder",
+//   description: "In very fine Powder form",
+//   hashCode: "2918.16.0000",
+//   qty: 3800,
+//   uom: "KG",
+//   unitPrice: 3,
+//   sn: 2,
+// },{
+//   name: "Ferrous Gluconate EP Powder",
+//   description: "In very fine Powder form",
+//   hashCode: "2918.16.0000",
+//   qty: 3800,
+//   uom: "KG",
+//   unitPrice: 3,
+//   sn: 2,
+// },{
+//   name: "Ferrous Gluconate EP Powder",
+//   description: "In very fine Powder form",
+//   hashCode: "2918.16.0000",
+//   qty: 3800,
+//   uom: "KG",
+//   unitPrice: 3,
+//   sn: 2,
+// },
       
     ],
 },
-
-    "items": [
-      {
-        "sno": 1,
-        "desc": "ad sunt culpa occaecat qui",
-        "qty": 5,
-        "rate": 405.89
-      },
-      {
-        "sno": 2,
-        "desc": "cillum quis sunt qui aute",
-        "qty": 5,
-        "rate": 373.11
-      },
-      {
-        "sno": 3,
-        "desc": "ea commodo labore culpa irure",
-        "qty": 5,
-        "rate": 458.61
-      },
-      {
-        "sno": 4,
-        "desc": "nisi consequat et adipisicing dolor",
-        "qty": 10,
-        "rate": 725.24
-      },
-      {
-        "sno": 5,
-        "desc": "proident cillum anim elit esse",
-        "qty": 4,
-        "rate": 141.02
-      },
-      {
-        "sno": 5,
-        "desc": "proident cillum anim elit esse",
-        "qty": 4,
-        "rate": 141.02
-      },
-      {
-        "sno": 5,
-        "desc": "proident cillum anim elit esse",
-        "qty": 4,
-        "rate": 141.02
-      },
-      {
-        "sno": 5,
-        "desc": "proident cillum anim elit esse",
-        "qty": 4,
-        "rate": 141.02
-      },
-      {
-        "sno": 5,
-        "desc": "proident cillum anim elit esse",
-        "qty": 4,
-        "rate": 141.02
-      },
-      {
-        "sno": 5,
-        "desc": "proident cillum anim elit esse",
-        "qty": 4,
-        "rate": 141.02
-      },
-      {
-        "sno": 5,
-        "desc": "proident cillum anim elit esse",
-        "qty": 4,
-        "rate": 141.02
-      },
-      {
-        "sno": 5,
-        "desc": "proident cillum anim elit esse",
-        "qty": 4,
-        "rate": 141.02
-      },
-      {
-        "sno": 5,
-        "desc": "proident cillum anim elit esse",
-        "qty": 4,
-        "rate": 141.02
-      },
-      {
-        "sno": 5,
-        "desc": "proident cillum anim elit esse",
-        "qty": 4,
-        "rate": 141.02
-      },
-      {
-        "sno": 5,
-        "desc": "proident cillum anim elit esse",
-        "qty": 4,
-        "rate": 141.02
-      },
-      {
-        "sno": 5,
-        "desc": "proident cillum anim elit esse",
-        "qty": 4,
-        "rate": 141.02
-      },
-      {
-        "sno": 5,
-        "desc": "proident cillum anim elit esse",
-        "qty": 4,
-        "rate": 141.02
-      },
-      {
-        "sno": 5,
-        "desc": "proident cillum anim elit esse",
-        "qty": 4,
-        "rate": 141.02
-      },
-      {
-        "sno": 5,
-        "desc": "proident cillum anim elit esse",
-        "qty": 4,
-        "rate": 141.02
-      },
-      {
-        "sno": 5,
-        "desc": "proident cillum anim elit esse",
-        "qty": 4,
-        "rate": 141.02
-      },
-      {
-        "sno": 5,
-        "desc": "proident cillum anim elit esse",
-        "qty": 4,
-        "rate": 141.02
-      },
-      {
-        "sno": 5,
-        "desc": "proident cillum anim elit esse",
-        "qty": 4,
-        "rate": 141.02
-      },
-      {
-        "sno": 5,
-        "desc": "proident cillum anim elit esse",
-        "qty": 4,
-        "rate": 141.02
-      }
-    ]
   }
   
   export default invoice
