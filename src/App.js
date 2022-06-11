@@ -10,7 +10,7 @@ class App extends Component {
   render() {
     return (
         <Fragment>
-            <PDFViewer width="1000" height="600" className="app" >
+            <PDFViewer style={{width: '90%', height : '100vh'}} className="app" >
                 <Invoice invoice={invoice}/>
             </PDFViewer>
         </Fragment>
