@@ -8,6 +8,7 @@ const styles = StyleSheet.create({
         marginTop: 12
     },
     reportTitle:{
+       fontFamily: 'Helvetica-Bold',
         fontSize: 19,
         textAlign: 'center',
         textTransform: 'uppercase',

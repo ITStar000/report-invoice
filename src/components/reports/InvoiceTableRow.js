@@ -41,7 +41,7 @@ const styles = StyleSheet.create({
 const InvoiceTableRow = ({invoice}) => {
 
     const rowsa = invoice.tableData.rows.map( (item, index) => 
-        <View style={styles.row} key={index}>
+        <View style={styles.row} key={index} wrap={false}>
             
             <Text style={styles.sn}>{item.sn}.</Text>
             <View style={styles.content}>

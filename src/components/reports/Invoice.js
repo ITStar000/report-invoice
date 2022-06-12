@@ -70,15 +70,12 @@ const styles = StyleSheet.create({
         backgroundColor: '#A81FA8',
     },
     title:{
-        
-        
-      fontFamily: 'Helvetica-Bold',
+        fontFamily: 'Helvetica-Bold',
         paddingLeft: 5,
         paddingRight:5,
         top:48,
         fontSize : 19,
         fontWeight: 900
-
     },
     table:{
         marginTop:5,
@@ -110,8 +107,9 @@ const styles = StyleSheet.create({
         marginLeft:60,
         marginRight: 60,
         bottom: 120,
-        justifyContent: 'flex-start'
+        justifyContent: 'flex-start',
     },
+    
     underLine: {
         borderBottom : 1
     },
@@ -158,13 +156,13 @@ const styles = StyleSheet.create({
                     <View style={styles.table}>
                         <InvoiceItemsTable invoice={invoice} />
                     </View>
-                    <Text style={styles.account_title}>BANK ACCOUNT DETAILS:</Text>
-                    <View style={styles.account}>
+                    <Text style={styles.account_title} wrap={false}>BANK ACCOUNT DETAILS:</Text>
+                    <View style={styles.account} wrap={false}>
                         
                         <Detail1 invoice={invoice}/>
                         <Detail2 invoice={invoice}/>
                     </View>
-                    <View style={styles.spec}>
+                    <View style={styles.spec} wrap={false}>
                         <Instruction />
                         <Brand />
                     </View>
